@@ -18,6 +18,7 @@ const Search = () => {
       });
       setResults(data.query.search);
     };
+
     const timeoutId = setTimeout(() => {
       if (term) {
         search();
